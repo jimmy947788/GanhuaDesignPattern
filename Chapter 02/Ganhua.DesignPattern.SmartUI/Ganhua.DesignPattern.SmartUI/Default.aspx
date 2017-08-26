@@ -29,7 +29,7 @@
                     <ItemTemplate>
                         <img src="Images/<%# Eval("Cover") %>" width="150" />
                         <br />
-                        <a style="font-size:small;word-break: break-all;" href="<%# Eval("URL") %>"><%# Eval("Name") %></a>
+                        <a style="font-size:small;word-break: break-all;" href="<%# Eval("URL") %>" target="_blank" ><%# Eval("Name") %></a>
                     </ItemTemplate>                    
                 </asp:TemplateField>
 
