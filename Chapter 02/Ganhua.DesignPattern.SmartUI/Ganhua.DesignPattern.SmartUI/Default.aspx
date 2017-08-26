@@ -13,8 +13,8 @@
           Savings
         <asp:DropDownList ID="ddlDiscountType" runat="server" AutoPostBack="True" 
             onselectedindexchanged="ddlDiscountType_SelectedIndexChanged">
-            <asp:ListItem Value="0">No Discount</asp:ListItem>
-            <asp:ListItem Value="1">Trade Discount</asp:ListItem>
+            <asp:ListItem Value="0">一般人</asp:ListItem>
+            <asp:ListItem Value="1">老司機</asp:ListItem>
         </asp:DropDownList>
     
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
