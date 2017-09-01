@@ -70,3 +70,9 @@ C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.D
 C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.Unity.xml
 C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
 C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Unity.WebForms.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\WebActivatorEx.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 02\Ganhua.DesignPattern.Layered\Ganhua.DesignPattern.WebUI\bin\Microsoft.Practices.ServiceLocation.xml

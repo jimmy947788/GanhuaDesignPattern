@@ -15,10 +15,13 @@ namespace Ganhua.DesignPattern.WebUI
     {
         private ProductListPresenter presenter;
 
+        [Dependency]
+        public Service.ProductService productService { get; set; }
+
+
         protected void Page_Init(object sender, EventArgs e)
         {
-            var container = Application["container"] as IUnityContainer;
-            presenter = new ProductListPresenter(this, container.Resolve<Service.ProductService>());
+            presenter = new ProductListPresenter(this, productService);
             this.ddlDiscountType.SelectedIndexChanged += delegate { presenter.Display(); };
         }
 

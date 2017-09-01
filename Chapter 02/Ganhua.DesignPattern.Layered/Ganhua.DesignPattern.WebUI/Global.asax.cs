@@ -14,10 +14,6 @@ namespace Ganhua.DesignPattern.WebUI
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            var container = new UnityContainer();
-            container.RegisterType<IProductRepository, ProductRepository>();
-            container.RegisterType<Service.ProductService>();
-            Application["container"] = container;
         }
     }
 }
