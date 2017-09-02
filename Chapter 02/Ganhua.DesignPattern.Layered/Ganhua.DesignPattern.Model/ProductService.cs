@@ -17,7 +17,8 @@ namespace Ganhua.DesignPattern.Model
 
         public IList<Product> GetAllProductsFor(CustomerType customerType)
         {
-            IDiscountStrategy discountStrategy = DiscountFactory.GetDiscountStrategyFor(customerType);
+            IDiscountStrategy discountStrategy = 
+                DiscountFactory.GetDiscountStrategyFor(customerType);
             IList<Product> products = _productRepository.FindAll();
 
             products.Apply(discountStrategy);

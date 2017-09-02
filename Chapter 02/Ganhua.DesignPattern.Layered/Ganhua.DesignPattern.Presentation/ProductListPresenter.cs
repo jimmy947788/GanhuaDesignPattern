@@ -23,7 +23,8 @@ namespace Ganhua.DesignPattern.Presentation
             ProductListRequest productListRequest = new ProductListRequest();
             productListRequest.CustomerType = productListView.CustomerType;
 
-            ProductListResponse productResponse = productService.GetAllProductsFor(productListRequest);
+            ProductListResponse productResponse = 
+                productService.GetAllProductsFor(productListRequest);
 
             if (productResponse.Success)
             {

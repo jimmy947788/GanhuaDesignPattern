@@ -21,7 +21,8 @@ namespace Ganhua.DesignPattern.Service
 
             try
             {
-                IList<Model.Product> productEntities = productService.GetAllProductsFor(productListRequest.CustomerType);
+                IList<Model.Product> productEntities = 
+                    productService.GetAllProductsFor(productListRequest.CustomerType);
 
                 productListResponse.Products = productEntities.ConvertToProductListViewModel();
                 productListResponse.Success = true;

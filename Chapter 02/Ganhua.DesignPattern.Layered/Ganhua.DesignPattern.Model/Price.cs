@@ -8,7 +8,7 @@ namespace Ganhua.DesignPattern.Model
 {
     public class Price
     {
-        private IDiscountStrategy _discountStrategy = new NullDiscountStrategy();
+        private IDiscountStrategy discountStrategy = new NullDiscountStrategy();
         private decimal _rrp;
         private decimal _sellingPrice;
 
@@ -18,14 +18,14 @@ namespace Ganhua.DesignPattern.Model
             _sellingPrice = SellingPrice;
         }
 
-        public void SetDiscountStrategyTo(IDiscountStrategy DiscountStrategy)
+        public void SetDiscountStrategyTo(IDiscountStrategy discountStrategy)
         {
-            _discountStrategy = DiscountStrategy;
+            this.discountStrategy = discountStrategy;
         }
 
         public decimal SellingPrice
         {
-            get { return _discountStrategy.ApplyExtraDiscountsTo(_sellingPrice); }
+            get { return this.discountStrategy.ApplyExtraDiscountsTo(_sellingPrice); }
         }
 
         public decimal RRP
