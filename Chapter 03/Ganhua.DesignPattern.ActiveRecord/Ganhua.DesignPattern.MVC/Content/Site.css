@@ -1,0 +1,12 @@
+﻿#document{
+width:1050px;
+margin:0 auto;
+}
+#content {
+float:left;
+width:800px;
+}
+#rightNav {
+float:right;
+width:250px;
+}

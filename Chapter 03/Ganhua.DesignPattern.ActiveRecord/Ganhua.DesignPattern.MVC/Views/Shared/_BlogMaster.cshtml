@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div id="document">
+        <div id="header"><h1>一劍浣春秋</h1></div>
+        <div id="nav">@Html.ActionLink("Create Post", "Create")</div>
+        @RenderBody()
+    </div>
+</body>
+</html>

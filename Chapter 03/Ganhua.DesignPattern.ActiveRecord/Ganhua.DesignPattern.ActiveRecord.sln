@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.DesignPattern.MVC", "Ganhua.DesignPattern.MVC\Ganhua.DesignPattern.MVC.csproj", "{5BD8C5AD-2705-403D-9F89-7CF44654DA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.DesignPattern.Model", "Ganhua.DesignPattern.Model\Ganhua.DesignPattern.Model.csproj", "{3DCD6E3C-596D-4650-A6DC-82717D606DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD8C5AD-2705-403D-9F89-7CF44654DA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD8C5AD-2705-403D-9F89-7CF44654DA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD8C5AD-2705-403D-9F89-7CF44654DA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD8C5AD-2705-403D-9F89-7CF44654DA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCD6E3C-596D-4650-A6DC-82717D606DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCD6E3C-596D-4650-A6DC-82717D606DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCD6E3C-596D-4650-A6DC-82717D606DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCD6E3C-596D-4650-A6DC-82717D606DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C4E6D9-2AB2-4E6A-BF87-55035DDF71A5}
+	EndGlobalSection
+EndGlobal
