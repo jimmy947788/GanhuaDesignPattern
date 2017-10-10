@@ -1,0 +1,6 @@
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\bin\Debug\Ganhua.DesignPattern.Model.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\bin\Debug\Ganhua.DesignPattern.Model.pdb
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\obj\Debug\Ganhua.DesignPattern.Model.csproj.CoreCompileInputs.cache
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\obj\Debug\Ganhua.DesignPattern.Model.dll
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\obj\Debug\Ganhua.DesignPattern.Model.pdb
+C:\Users\Jimmy Wu\Documents\影片範例\GanhuaDesignPattern\Chapter 03\Ganhua.DesignPattern.DomainModel\Ganhua.DesignPattern.Model\obj\Debug\Ganhua.DesignPattern.Model.csprojResolveAssemblyReference.cache

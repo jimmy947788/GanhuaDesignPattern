@@ -42,7 +42,7 @@
         </p>
         <p>
             Amount
-        £<asp:TextBox ID="txtAmount" runat="server" Width="60px"></asp:TextBox>
+        NT$<asp:TextBox ID="txtAmount" runat="server" Width="60px"></asp:TextBox>
                 
         &nbsp;<asp:Button ID="btnWithdrawal" runat="server" Text="Withdrawal" 
                 onclick="btnWithdrawal_Click" />
@@ -51,7 +51,7 @@
         </p>
         <p>
             Transfer
-        £<asp:TextBox ID="txtAmountToTransfer" runat="server" Width="60px"></asp:TextBox>
+        NT$<asp:TextBox ID="txtAmountToTransfer" runat="server" Width="60px"></asp:TextBox>
                 
         &nbsp;to
         <asp:DropDownList AutoPostBack="true" ID="ddlBankAccountsToTransferTo" runat="server"></asp:DropDownList>
