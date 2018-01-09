@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.AspNet.FriendlyUrls</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.FriendlyUrl"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.FriendlyUrl.Href(System.String,System.Object[])"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.FriendlyUrl.Resolve(System.String)">
+      <summary> 使用註冊的解析程式將檔案處理常式虛擬路徑解析為易記 URL。</summary>
+      <returns>易記 URL。</returns>
+      <param name="virtualPath">處理常式虛擬路徑。</param>
+    </member>
+    <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrl.Segments">
+      <summary> Friendly URLs 將此要求對應至檔案之後，剩下的 URL 區段。</summary>
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings">
+      <summary>代表啟用 Friendly URLs 時使用的設定。</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.#ctor">
+      <summary>使用預設值建立 FriendlyUrlSettings 類別的新執行個體。</summary>
+    </member>
+    <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.AutoRedirectMode">
+      <summary>執行將非易記 URL 重新導向易記 URL 的重新導向類型。預設為「關閉」。</summary>
+    </member>
+    <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.ResolverCachingMode"></member>
+    <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.SwitchViewRouteName">
+      <summary>處理使用者切換檢視之要求的路由名稱。預設為「AspNet.FriendlyUrls.SwitchView」。</summary>
+    </member>
+    <member name="P:Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings.SwitchViewUrl">
+      <summary>傳送檢視切換要求的目的 URL。預設為「__FriendlyUrls_SwitchView/{view}」。</summary>
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions">
+      <summary>提供使用 Friendly URLs 的擴充方法。</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileExtension(System.Web.HttpRequest)">
+      <summary> 傳回 Friendly URLs 對應此要求之目的檔案的副檔名。</summary>
+      <returns>副檔名，例如 .aspx。</returns>
+      <param name="httpRequest">HttpRequest 物件。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileExtension(System.Web.HttpRequestBase)">
+      <summary> 傳回 Friendly URLs 對應此要求之目的檔案的副檔名。</summary>
+      <returns>副檔名，例如 .aspx。</returns>
+      <param name="httpRequest">HttpRequestBase 物件。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileVirtualPath(System.Web.HttpRequest)">
+      <summary> 傳回 Friendly URLs 對應此要求之目的檔案的虛擬路徑。</summary>
+      <returns>檔案虛擬路徑。</returns>
+      <param name="httpRequest">HttpRequest 物件。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlFileVirtualPath(System.Web.HttpRequestBase)">
+      <summary> 傳回 Friendly URLs 對應此要求之目的檔案的虛擬路徑。</summary>
+      <returns>檔案虛擬路徑。</returns>
+      <param name="httpRequest">HttpRequestBase 物件。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlSegments(System.Web.HttpRequest)">
+      <summary> 傳回 Friendly URLs 將此要求對應至檔案之後，剩下的 URL 區段。</summary>
+      <returns>URL 區段。</returns>
+      <param name="httpRequest">HttpRequest 物件。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.HttpRequestExtensions.GetFriendlyUrlSegments(System.Web.HttpRequestBase)">
+      <summary> 傳回 Friendly URLs 將此要求對應至檔案之後，剩下的 URL 區段。</summary>
+      <returns>URL 區段。</returns>
+      <param name="httpRequest">HttpRequestBase 物件。</param>
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.PreApplicationStartCode"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.PreApplicationStartCode.Start"></member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.RedirectMode">
+      <summary>代表當自動重新導向至易記 URL 時，使用的重新導向模式。</summary>
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.RedirectMode.Permanent">
+      <summary>執行永久重新導向 (301 回應碼)。</summary>
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.RedirectMode.Temporary">
+      <summary>執行暫時重新導向 (302 回應碼)。</summary>
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.RedirectMode.Off">
+      <summary>不執行自動重新導向 (停用)。</summary>
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode"></member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Static">
+      <summary />
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Dynamic">
+      <summary />
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.ResolverCachingMode.Disabled">
+      <summary />
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions.EnableFriendlyUrls(System.Web.Routing.RouteCollection)">
+      <summary> 啟用 Web Form 頁面的易記 URL。</summary>
+      <param name="routes">路由集合。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions.EnableFriendlyUrls(System.Web.Routing.RouteCollection,Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings)">
+      <summary>啟用 Web Form 頁面的易記 URL。</summary>
+      <param name="routes">路由集合。</param>
+      <param name="settings">啟用 Friendly URLs 時使用的設定。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions.EnableFriendlyUrls(System.Web.Routing.RouteCollection,Microsoft.AspNet.FriendlyUrls.FriendlyUrlSettings,Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver[])">
+      <summary> 使用傳遞的解析程式啟用易記 URL。</summary>
+      <param name="routes">路由集合。</param>
+      <param name="settings">啟用 Friendly URLs 時使用的設定。</param>
+      <param name="resolvers">要使用的易記 URL 解析程式。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.RouteCollectionExtensions.EnableFriendlyUrls(System.Web.Routing.RouteCollection,Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver[])">
+      <summary> 使用指定的解析程式啟用易記 URL。</summary>
+      <param name="routes">路由集合。</param>
+      <param name="resolvers">要使用的易記 URL 解析程式。</param>
+    </member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver">
+      <summary>將易記 URL 解析為 HTTP 處理常式。</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.#ctor(System.String)">
+      <summary>建立提供之副檔名的 FriendlyUrlResolver。</summary>
+      <param name="fileExtension">此解析程式理解的實體副檔名。必須包含前置的句點，例如 ".aspx"。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.ConvertToFriendlyUrl(System.String)">
+      <summary>將標準的有副檔名 URL 轉換為易記的無副檔名 URL。</summary>
+      <returns>如果此解析程式能夠自動將無副檔名 URL 對應至具有提供之副檔名的實體檔案，則是易記 URL (刪去副檔名)。否則為 Null。</returns>
+      <param name="path">原始路徑，包含副檔名。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.GetExtensions(System.Web.HttpContextBase)">
+      <summary>取得嘗試從易記 URL 解析 HTTP 處理常式時使用的副檔名，例如 .aspx、.ashx、.mobile.aspx</summary>
+      <returns>副檔名的清單。</returns>
+      <param name="httpContext">目前的 HttpContext。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.FriendlyUrlResolver.PreprocessRequest(System.Web.HttpContextBase,System.Web.IHttpHandler)"></member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.GenericHandlerFriendlyUrlResolver">
+      <summary>將易記 URL 解析為一般處理常式，也就是 *.ashx。</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.GenericHandlerFriendlyUrlResolver.#ctor"></member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver.ConvertToFriendlyUrl(System.String)"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver.GetExtensions(System.Web.HttpContextBase)"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.IFriendlyUrlResolver.PreprocessRequest(System.Web.HttpContextBase,System.Web.IHttpHandler)"></member>
+    <member name="T:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver">
+      <summary>將易記 URL 解析為 Web Form 頁面。</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.#ctor"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.GetExtensions(System.Web.HttpContextBase)">
+      <returns>傳回 <see cref="T:System.Collections.Generic.IList`1" />。</returns>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.IsMobileExtension(System.Web.HttpContextBase,System.String)">
+      <returns>傳回 <see cref="T:System.Boolean" />。</returns>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.IsMobileView(System.Web.HttpContextBase)">
+      <summary>決定是否根據用戶端瀏覽器和 (或) 覆寫將目前的易記 URL 解析為行動檢視。</summary>
+      <returns>目前的檢視是否為行動檢視。</returns>
+      <param name="httpContext">頁面。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.PreprocessRequest(System.Web.HttpContextBase,System.Web.IHttpHandler)"></member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.TrySetMasterPageFile(System.Web.UI.Page,System.String)">
+      <summary>嘗試根據主版網頁是否存在，設定指定之網頁的 MasterPageFile 屬性。</summary>
+      <returns>指示是否已設定主版網頁的布林值。</returns>
+      <param name="page">頁面。</param>
+      <param name="masterPageFile">主版網頁檔案虛擬路徑。</param>
+    </member>
+    <member name="M:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.TrySetMobileMasterPage(System.Web.HttpContextBase,System.Web.UI.Page,System.String)">
+      <summary>嘗試將指定網頁的 MasterPageFile 屬性設定為行動特定的主版網頁。</summary>
+      <returns>指示是否已設定主版網頁的布林值。</returns>
+      <param name="httpContext">HTTP 內容。</param>
+      <param name="page">頁面。</param>
+    </member>
+    <member name="F:Microsoft.AspNet.FriendlyUrls.Resolvers.WebFormsFriendlyUrlResolver.ViewSwitcherCookieName"></member>
+  </members>
+</doc>
