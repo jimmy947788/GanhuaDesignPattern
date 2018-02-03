@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.QueryObject.Infrastructure", "Ganhua.QueryObject.Infrastructure\Ganhua.QueryObject.Infrastructure.csproj", "{992066BD-132C-484C-B87F-3C7AFBB53D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.QueryObject.Model", "Ganhua.QueryObject.Model\Ganhua.QueryObject.Model.csproj", "{B0ED0CE0-B196-4494-A62E-A44910F01C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.QueryObject.Repository", "Ganhua.QueryObject.Repository\Ganhua.QueryObject.Repository.csproj", "{A4A698FC-938B-469A-B85C-17C3065654E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.QueryObject.UI.Web", "Ganhua.QueryObject.UI.Web\Ganhua.QueryObject.UI.Web.csproj", "{90CD6D32-3EE0-4D27-8783-748A1F573664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ganhua.QueryObject.Test", "Ganhua.QueryObject.Test\Ganhua.QueryObject.Test.csproj", "{B12C3753-ED4A-4AEA-A9BC-0625A7F17B0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992066BD-132C-484C-B87F-3C7AFBB53D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992066BD-132C-484C-B87F-3C7AFBB53D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992066BD-132C-484C-B87F-3C7AFBB53D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992066BD-132C-484C-B87F-3C7AFBB53D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ED0CE0-B196-4494-A62E-A44910F01C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ED0CE0-B196-4494-A62E-A44910F01C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ED0CE0-B196-4494-A62E-A44910F01C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ED0CE0-B196-4494-A62E-A44910F01C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A698FC-938B-469A-B85C-17C3065654E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A698FC-938B-469A-B85C-17C3065654E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A698FC-938B-469A-B85C-17C3065654E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A698FC-938B-469A-B85C-17C3065654E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CD6D32-3EE0-4D27-8783-748A1F573664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CD6D32-3EE0-4D27-8783-748A1F573664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CD6D32-3EE0-4D27-8783-748A1F573664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CD6D32-3EE0-4D27-8783-748A1F573664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12C3753-ED4A-4AEA-A9BC-0625A7F17B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12C3753-ED4A-4AEA-A9BC-0625A7F17B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12C3753-ED4A-4AEA-A9BC-0625A7F17B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12C3753-ED4A-4AEA-A9BC-0625A7F17B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98CD8E25-C6A0-4F2D-B422-60CF72856324}
+	EndGlobalSection
+EndGlobal
